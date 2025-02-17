@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon error in Haskell: using `throwIO` within a `forM_` loop, which causes the remaining iterations of the loop to be skipped upon an exception.  The `bug.hs` file contains the problematic code; `bugSolution.hs` offers a corrected version using a different approach to handle potential errors.
